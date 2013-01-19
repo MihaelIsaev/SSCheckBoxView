@@ -1,4 +1,3 @@
-
 /*
  Copyright 2011 Ahmet Ardal
  
@@ -61,6 +60,8 @@ typedef enum SSCheckBoxViewStyle_ {
 - (id) initWithFrame:(CGRect)frame
                style:(SSCheckBoxViewStyle)aStyle
              checked:(BOOL)aChecked;
+
+- (void) setStyle:(SSCheckBoxViewStyle)aStyle;
 
 - (void) setText:(NSString *)text;
 
