@@ -1,4 +1,3 @@
-
 /*
  Copyright 2011 Ahmet Ardal
  
@@ -99,6 +98,11 @@ static const CGFloat kHeight = 36.0f;
 - (BOOL) enabled
 {
     return enabled;
+}
+
+- (void) setStyle:(SSCheckBoxViewStyle)aStyle
+{
+ style = aStyle;
 }
 
 - (void) setText:(NSString *)text
